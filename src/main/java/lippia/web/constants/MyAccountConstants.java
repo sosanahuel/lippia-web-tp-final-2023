@@ -20,8 +20,5 @@ public class MyAccountConstants {
     public static final String CLICK_DETAILS_BUTTON = "xpath://a[.='Account Details']";
 
     public static final String INPUT_CURRENT_PASSWORD = "id:password_current";
-    public static final String INPUT_NEW_PASSWORD = "id:password_1";
-    public static final String INPUT_CONFIRM_NEW_PASSWORD = "id:password_2";
-    public static final String BUTTON_SAVE_CHANGES = "xpath://*[@class='woocommerce-Button button']";
 
 }

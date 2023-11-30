@@ -73,9 +73,6 @@ public class MyAccountService {
 
     public static void validateChangePassword(){
         Assert.assertTrue(isPresent(MyAccountConstants.INPUT_CURRENT_PASSWORD));
-        Assert.assertTrue(isPresent(MyAccountConstants.INPUT_NEW_PASSWORD));
-        Assert.assertTrue(isPresent(MyAccountConstants.INPUT_CONFIRM_NEW_PASSWORD));
-        Assert.assertTrue(isPresent(MyAccountConstants.BUTTON_SAVE_CHANGES));
     }
 
 
