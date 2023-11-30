@@ -87,8 +87,9 @@ public class CheckOutService extends WebActionManager {
         WebActionManager.click(CheckOutConstants.TRANSFER_CLICK);
     }
     //COUPON
-    public static void linkCoupon() throws AWTException {
+    public static void linkCoupon() throws AWTException, InterruptedException {
         BaseService.scrollUpRobot();
+        Thread.sleep(500);
         Assert.assertTrue(isPresent(CheckOutConstants.LINK_COUPON));
         BaseService.clickJs(CheckOutConstants.LINK_COUPON);
     }

@@ -36,7 +36,7 @@ public class CheckOutSteps {
         CheckOutService.clickBankTransfer(paymentMethod);
     }
     @And("validate if you can add coupon also if you find billing order and additional details")
-    public void validate_if_you_can_add_coupon_also_if_you_find_billing_order_and_additional_details() throws InterruptedException, AWTException {
+    public void validate_if_you_can_add_coupon_also_if_you_find_billing_order_and_additional_details() throws AWTException, InterruptedException {
         CheckOutService.linkCoupon();
         CheckOutService.inputCoupon();
         CheckOutService.buttonCoupon();
